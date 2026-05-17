@@ -2,6 +2,9 @@
   "buildCommand": "echo 'Static site, no build needed'",
   "outputDirectory": ".",
   "public": false,
+  "rewrites": [
+    { "source": "/", "destination": "/p4-science.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
